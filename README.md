@@ -1,4 +1,4 @@
-# SwiftUI_Mask_Sample
+# SwiftUI Mask Sample
 
 It is SwiftUI mask sample code.
 
