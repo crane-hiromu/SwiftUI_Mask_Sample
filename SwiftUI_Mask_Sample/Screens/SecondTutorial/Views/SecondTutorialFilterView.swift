@@ -11,8 +11,7 @@ import SwiftUI
 struct SecondTutorialFilterView: View {
 
     var body: some View {
-        Rectangle()
-            .foregroundColor(Color.black)
+        Color.black
             .opacity(0.7)
             .mask(SecondTutorialHoleView())
             .edgesIgnoringSafeArea(.all)
