@@ -20,19 +20,11 @@ final class SecondTutorialViewController: UIHostingController<SecondTutorialView
 
     init() {
         super.init(rootView: .init())
+        bind()
     }
 
     @objc required dynamic convenience init?(coder aDecoder: NSCoder) {
         self.init()
-    }
-}
-
-// MARK: - Override
-extension SecondTutorialViewController {
-
-    override func loadView() {
-        super.loadView()
-        bind()
     }
 }
 
